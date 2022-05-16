@@ -1,0 +1,22 @@
+div {
+    background-color: #e7b0ee;
+}
+
+app-redessociales{
+    float: right;
+    margin-top: 25px;
+}
+
+.navbar {
+    background-color: #e9e7e6;
+    display: flex;
+   justify-content: space-around
+}
+a {
+        color: black;
+        font-weight: 500;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        text-decoration: none;
+        
+    }

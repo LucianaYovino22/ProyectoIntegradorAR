@@ -1,0 +1,74 @@
+{
+    "name": "Luciana Yovino",
+    "image": "../assets/perfil.jpeg",
+    "position": "Full Stack Developer Jr.",
+    "ubication": "Córdoba, Argentina",
+    
+    "about": "Comencé mis estudios de desarrollo web en marzo del año 2021, me sumergí en el mundo de la programación y descubrí un ámbito fascinante y de inacabables conocimientos. Tengo grandes expectativas y muchas ganas de aprender todo aquello que constituya un impulso a mi desarrollo personal y profesional. ",
+    "proyectos": [{
+        "name":"Encriptador",
+        "tecnogias":"HTML, CSS Y JS",
+        "imag":"../assets/Encriptador.png"
+},
+{
+        "name":"Encriptador",
+        "tecnogias":"HTML, CSS Y JS",
+        "img":"../assets/Encriptador.png"
+}],
+
+    "experience": [ {
+        "position": "Freelancer",
+        "start": "2021",
+        "end": "Actualmente en actividad",
+        "jobs": "Me desempeño realizando diseños de páginas estáticas y diinámicas simples para pequeñas empresas."
+        
+    },
+    {
+        "position": "Profesora de Lengua Española",
+        "start": "2010",
+        "end": "Actualmente trabajando",
+        "timeElapsed": "10 años y 6 meses",
+        "jobs": "Trabajo como docente de nivel secundario en dos institutos de enseñanza privada"
+    }],
+
+    "education":[{
+        "school": "Argentina Programa",
+        "title": "Full Stack Developer",
+        "img":"../assets/LogoArgPrograma.png",
+        "start": "octubre, 2021",
+        "end": "agosto, 2022",
+        "skills":"Habilidades para la programación de sitios web estáticos y dinámicos. Manejo Angular, HTML, CSS, y Javascrip. Creación y diseño de base de datos, trabajo. Conocimientos de JAVA, Spring Boot  JSP, Servlets, Sockets, ciberseguridad, testing de trabajos. "
+    },
+    {
+        "school": "Udemy",
+        "title": "Javascript Moderno",
+        "img":"../assets/udemy.png",
+        "start": "marzo 2022",
+        "end": "cursando",
+        "skills":"FullStack JavaScript con React, Express, MongoDB, NodejS"
+
+},
+{
+    "school": "Udemy",
+        "title": "Desarrollo Web Completo",
+        "img":"../assets/udemy.png",
+        "start": "marzo 2021",
+        "end": "diciembre 2021",
+        "skills":"Estudio de HTML, CSS, BEM, PHP, Fetch API, JavaScript Moderno, MYSQL, aplicaciones con CRUD"
+
+},
+
+    {
+        "school": "Instituto de Enseñanza Superior Simón Bolívar",
+        "title": "Profesora de Lengua y Literatura",
+        "img":"../assets/terciario.png",
+        "start": "febrero 2006",
+        "end": "diciembre 2009",
+        "skills":"Dominio de la lengua materna española, tanto para la oralidad y como para la redacción escrita"
+
+}]
+}
+    
+        
+            
+        

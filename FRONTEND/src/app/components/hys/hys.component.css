@@ -1,0 +1,9 @@
+.row {
+    background-color: #e7b0ee;
+    padding: 20px;
+}
+h1 {
+    display: inline;
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration-line: underline;
+}

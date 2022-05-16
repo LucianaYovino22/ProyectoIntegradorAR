@@ -1,0 +1,29 @@
+.row {
+    padding: 20px;
+    background-color: #e7b0ee;
+}
+.contenedor {
+    width: auto;
+}
+.parte1 , .parte2 {
+    display: inline-block;
+    text-align:justify;
+}/*para que ocupe una parte en bloque y no toda la línea*/
+
+.img-proyecto {
+    box-shadow: 10px 10px 5px black;
+}
+h1 {
+    display: inline;
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration-line: underline;
+}
+h2 {
+    display: inline;
+    font-family: 'Titillium Web', sans-serif;
+}
+p{
+   
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}

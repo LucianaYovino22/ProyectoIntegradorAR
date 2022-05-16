@@ -1,0 +1,18 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<div class="row"> <!--Estructura en Boostrap-->
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+        <img id="fotodeperfil" class="img-fluid" [src]="miPortfolio.image"> <!--el fluid hace la img responsive-->
+    </div>
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+        <p id="nombre">{{miPortfolio.name}}</p>
+        <p>{{miPortfolio.position}}</p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+        <span>
+            <i class="fa-solid fa-square-pen"></i>
+            <h1>Acerca de mí</h1>
+            <p class="border">{{miPortfolio.about}}</p>
+        </span>
+    </div>
+</div>
