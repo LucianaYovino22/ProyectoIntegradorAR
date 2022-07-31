@@ -1,32 +1,29 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<div class="contaianer-fluid">
 <div class="row">
     <h1>Educación</h1>
-    <div class="col-lg-1"></div> <!--para que deje el espacio de una columna-->
-      <div class="col-lg-11">
-        <ul style="list-style:none" class="items-educacion">
-            <li *ngFor="let educacion of educacionList">
-                <div class="data-container">
-                    <div>
-                        <h2>{{educacion.school}}</h2> 
-                        
-                            <h3>{{educacion.title}}</h3> 
-                                <p> <time>{{educacion.start}}</time> - <time>{{educacion.end}}</time></p>
-                                    <div class="logo-container">
-                                  
-                                    </div>
-                    </div>
-                        <p>{{educacion.skills}}</p>
-                        <br>
-                </div>
-             
-                
-            </li>
-                
-        </ul>
-           
-    
-        </div>
+    <div class="col-lg-2">
+        <button type="button" class="btn btn-dark" routerLink="/nuevaedu" *ngIf="isLogged">
+            Agregar Educacion
+        </button>
     </div>
-</div>
+
+    <div class="col lg 1"></div>
+    <div class="col-lg-11">
+        <table class="table">
+            <tbody>
+                <tr *ngFor="let Educacion of educacion">
+                    <td>
+                        <h2>{{Educacion.nombreE}}</h2>
+                    </td>
+                    <td>{{Educacion.descripcionE}}</td>
+                    <td *ngIf="isLogged">
+                        <button class="btn btn-outline-dark" routerLink="/editedu/{{Educacion.id}}">
+                            <i class="bi bi-pencil-fill"></i> EDITAR</button>
+                    </td>
+                    <td *ngIf="isLogged">
+                        <button class="btn btn-outline-dark" (click)="delete(Educacion.id)">
+                            <i class="bi bi-trash-fill"></i> BORRAR</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>

@@ -1,6 +1,8 @@
+import { PersonaService } from './../../service/persona.service';
 import { Component, OnInit } from '@angular/core';
 import { subscribeOn } from 'rxjs';
-import { PortfolioService } from 'src/app/servicios/portfolio.service';
+import { persona } from 'src/app/model/persona.model';
+
 
 @Component({
   selector: 'app-acerca-de',
@@ -8,14 +10,12 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
   styleUrls: ['./acerca-de.component.css']
 })
 export class AcercaDeComponent implements OnInit {
-miPortfolio:any;
-  constructor(private datosPortolio:PortfolioService) { }
+persona: persona = new persona("","","","",""); //creame el obj persona de tipo persona pasamos parametros vacios-hay que inicializar si o si 
+  constructor(public personaService: PersonaService) { }
  
   ngOnInit(): void {
-    this.datosPortolio.obtenerDatos().subscribe(data => {
-     console.log(data);
-     this.miPortfolio=data;
-    });
+    this.personaService.getPersona().subscribe(data => {this.persona = data})
+    }
   }
 
-}
+
